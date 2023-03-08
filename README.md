@@ -3,6 +3,7 @@
 This project involves Simultaneous Localization and Mapping (SLAM) on the ground in dense and unstructured forest environments.
 
 **Student(s):** Alexander Wallén Kiessling
+
 **Examiner(s):** Patric Jensfelt
 
 # Purpose and Tasks
