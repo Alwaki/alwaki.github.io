@@ -1,7 +1,3 @@
----
-layout: default
----
-
 # Project Description
 
 This project involves Simultaneous Localization and Mapping (SLAM) on the ground in dense and unstructured forest environments.
