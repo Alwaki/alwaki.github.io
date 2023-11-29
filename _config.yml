@@ -1,6 +1,6 @@
-title: My blog
-description: My very nice blog
-author: "Jorge Sanz"
+title: Personal Page
+description: Details of career, education and interests
+author: "Alexander Wallén Kiessling"
 
 theme: minima
 
@@ -8,9 +8,9 @@ base_url: /gh-pages-minima-starter
 repository: jsanz/gh-pages-minima-starter
 
 # Minima social links
-github_username: jsanz
-linkedin_username: jsanz
-rss: rss
+github_username: alwaki
+linkedin_username: Alexander Wallén Kiessling
+rss: alexander.w.kiessling@gmail.com
 
 # Minima: show excerpts in the frontpage
 show_excerpts: true
