@@ -5,6 +5,8 @@ title: Welcome
 list_title: My blog posts
 ---
 
+My name is Alexander Wallén Kiessling, and I am a research engineer at the department of [Robotics, Perception and Learning][https://www.kth.se/is/rpl], KTH Stockholm (see more details in the about me section). I am currently working with Prof. Patric Jensfelt as a PI in projects related to drones, SLAM and forestry automation. I am deeply passionate about autonomy in field robotics, and find the challenge of robots navigating, percieving and acting in difficult environments to be a formidable but rewarding topic. 
+
 This is a template and some instructions for running Github Pages with the [`minima` theme][minima]. This repo has what I consider the minimum pieces for a personal blog using [Jekyll][jk] and [Github Pages][gh-site].
 
 Check out the excellent [`minima` theme][minima] documentation for further details and customization and the [official docs][gh] for more details on how Github Pages work.
