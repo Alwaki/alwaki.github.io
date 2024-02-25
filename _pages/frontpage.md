@@ -1,7 +1,7 @@
 ---
 permalink: /
 layout: home
-title: Introduction
+title: Home
 list_title: Projects
 ---
 
