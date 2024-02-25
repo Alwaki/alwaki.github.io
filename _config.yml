@@ -6,9 +6,9 @@ base_url: /gh-pages-minima-starter
 repository: jsanz/gh-pages-minima-starter
 
 # Minima social links
-github_username: alwaki
-linkedin_username: Alexander Wallén Kiessling
-rss: alexander.w.kiessling@gmail.com
+#github_username: alwaki
+#linkedin_username: Alexander Wallén Kiessling
+#rss: alexander.w.kiessling@gmail.com
 
 # Minima: show excerpts in the frontpage
 # show_excerpts: true
