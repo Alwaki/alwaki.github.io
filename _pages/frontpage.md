@@ -5,9 +5,9 @@ title: Home
 list_title: Projects
 ---
 
-My name is Alexander Wallén Kiessling, and I am a research engineer at the department of [Robotics, Perception and Learning](https://www.kth.se/is/rpl), KTH Stockholm (see more details in the about me section). My research interests include *Field robotics, Perception, Navigigation, State Estimation, Machine Learning, Mechatronics*.
+My name is Alexander Wallén Kiessling, and I am a research engineer at the department of [Robotics, Perception and Learning](https://www.kth.se/is/rpl), KTH Stockholm. My research interests broadly include *Field robotics, Perception, Navigation, State Estimation, Machine Learning, Mechatronics*.
 
-This page contains some information regarding projects I've worked on (see posts below), and details such as CV, email and other socials.
+This page contains some information regarding projects I've worked on (see posts below), and details such as CV, email and other socials (see section About me).
 
 Have a great day!!
 
