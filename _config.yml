@@ -21,6 +21,7 @@ header_pages:
   - _pages/frontpage.md
   - _pages/projects.md
   - _pages/about.md
+  - _pages/book_recommendations.md
 
 include:
     - _pages
