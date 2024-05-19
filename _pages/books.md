@@ -1,7 +1,7 @@
 ---
-permalink: /about
+permalink: /books
 layout: page
-title: About me
+title: Book Recommendations
 ---
 
 I've always enjoyed reading books. As such I've read quite a lot. Here are some of my recommendations for books, both in terms of engineering content and enjoyment. First off is educational content:
