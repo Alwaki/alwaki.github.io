@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="GloPro: Globally-Consistent Uncertainty-Aware 3D Human Pose Estimation & Tracking in the Wild.">
+  <meta name="keywords" content="GloPro, 3D Human Pose Estimatoin, Uncertainty-Estimation">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GloPro: Globally-Consistent Uncertainty-Aware 3D Human Pose Estimation & Tracking in the Wild</title>
+
+  <!-- MathJax. -->
+  <script type="text/javascript" async="" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./css/bulma.min.css">
+  <link rel="stylesheet" href="./css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./css/index.css">
+  <link rel="icon" href="./media/favicon.ico">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./js/fontawesome.all.min.js"></script>
+  <script src="./js/bulma-carousel.min.js"></script>
+  <script src="./js/bulma-slider.min.js"></script>
+  <script src="./js/index.js"></script>
+</head>
+<body>
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">GloPro: Globally-Consistent Uncertainty-Aware 3D Human Pose Estimation & Tracking in the Wild</h1>
+          <h2 class="subtitle is-3 publication-subtitle">IEEE Conference on Intelligent Robots and Systems (IROS) 2023</h2>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="https://keunhong.com">Simon Schaefer</a><sup>1</sup>,</span>
+            <span class="author-block">
+              <a href="https://utkarshsinha.com">Dorian Henning</a><sup>2</sup>,</span>
+            <span class="author-block">
+              <a href="https://jonbarron.info">Stefan Leutenegger</a><sup>1, 2</sup>
+            </span>
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><sup>1</sup>Smart Robotics Lab, Technical University of Munich,</span>
+            <span class="author-block"><sup>2</sup>Imperial College London</span>
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- PDF Link. -->
+              <span class="link-block">
+                <a href="https://arxiv.org/abs/2309.10369"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+              <span class="link-block">
+                <a href="https://arxiv.org/abs/2309.10369"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+              <!-- Video Link. -->
+              <span class="link-block">
+                <a href="https://youtu.be/4oazpyXg-s4?si=6fRBR599uBg7Fwev"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-youtube"></i>
+                  </span>
+                  <span>Video</span>
+                </a>
+              </span>
+              <!-- Code Link. -->
+              <span class="link-block">
+                <a href="https://github.com/smartroboticslab/GloPro"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code (soon)</span>
+                  </a>
+              </span>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <video id="teaser" autoplay muted loop playsinline height="100%">
+        <source src="./media/projects/glopro/okvis+glopro.mp4" type="video/mp4">
+      </video>
+      <h2 class="subtitle has-text-centered">
+        <span class="dnerf">GloPro</span> predicts a globally-consistent uncertain 3D human body mesh from a single RGB video.
+      </h2>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            An accurate and uncertainty-aware 3D human body pose estimation is key to enabling truly safe but efficient
+            human-robot interactions. Current uncertainty-aware methods in 3D human pose estimation are limited to 
+            predicting the uncertainty of the body posture, while effectively neglecting the body shape and root pose. 
+          </p>
+          <p>
+            In this work, we present GloPro, which to the best of our knowledge the first framework to predict an 
+            uncertainty distribution of a 3D body mesh including its shape, pose, and root pose, by efficiently fusing 
+            visual clues with a learned motion model. We demonstrate that it vastly outperforms state-of-the-art 
+            methods in terms of human trajectory accuracy in a world coordinate system (even in the presence of 
+            severe occlusions), yields consistent uncertainty distributions, and can run in real-time.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--/ Abstract. -->
+
+    <!-- Method. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Method</h2>
+        <div class="content has-text-justified">
+          <img src="./media/projects/glopro/architecture.png" alt="GloPro" width="100%">
+          <p>Our model predicts an image-based prior and a motion-based prior and fuses them to a 
+            posterior distribution over the SMPL parameters afterward. Thereby, given the camera trajectory, 
+            the body motion can be estimated independently from the camera motion. The body state distribution can then be propagated to an uncertainty 
+            distribution over each vertex of the 3D body mesh.</p>
+        </div>
+      </div>
+    </div>
+    <!--/ Method. -->
+
+    <!-- Paper video. -->
+    <!-- <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Video</h2>
+        <div class="publication-video">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/4oazpyXg-s4?si=QFaK7GVZSzk1JRCa&amp;controls=0" 
+          title="YouTube video player" frameborder="0" 
+          allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div> -->
+    <!--/ Paper video. -->
+
+    <!-- Qualitative Results. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Qualitative Results</h2>
+        <div class="content has-text-justified">
+          <img src="./media/projects/glopro/qualitative.png" alt="GloPro" width="100%">
+          <p>Qualitative comparison of the human body tracking with VIBE (upper) and our method (lower) in the presence of severe
+            occlusions. Our method yields a body state distribution with a stable body posture and root pose prediction, as well as a reasonable
+            uncertainty in the occluded areas while tracking the body over the whole sequence. Meanwhile, VIBE only predicts a deterministic human
+            body mesh, loses track under occlusion and consequently estimates a wrong body posture..</p>
+        </div>
+      </div>
+    </div>
+    <!--/ Qualitative Results. -->
+  </div>
+</section>
+
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>@article{schaefer2023glopro,
+  author    = {Schaefer, Simon and Henning, Dorian and Leutenegger, Stefan},
+  title     = {GloPro: Globally-Consistent Uncertainty-Aware 3D Human Pose Estimation & Tracking in the Wild},
+  journal   = {IROS},
+  year      = {2023},
+}</code></pre>
+  </div>
+</section>
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            This website is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>. This webpage template is from 
+            <a href="https://github.com/nerfies/nerfies.github.io">Nerfies</a> . 
+            We sincerely thank <a href="https://keunhong.com/">Keunhong Park</a> for developing and open-sourcing this template.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
