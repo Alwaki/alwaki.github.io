@@ -1,11 +1,11 @@
 # Site settings
-title: Erwin's Blog
-SEOTitle: Erwin Blog
+title: Alex's Blog
+SEOTitle: Alex's Blog
 header-img: img/home-bg.jpg
-email: erwin.lejeune15@gmail.com
-description: "Erwin's Blog Page | Learning, Lifestyle, Experiences"
-keyword: "Erwin, Erwin Blog, Erwin Lejeune, Github Pages, Web, JavaScript, React, React Native"
-url: "guilyx.github.com" # your host, for absolute URL
+email: alexander.kiessling@epfl.ch
+description: "Alex's Blog Page | Robotics, Teaching, Experiences"
+keyword: "Alex's Blog, Homepage, Alexander Kiessling, Alexander Wallén Kiessling, Github Pages"
+url: "alwaki.github.com" # your host, for absolute URL
 baseurl: "" # for example, '/blog' if your blog hosted on 'host/blog'
 
 # Publish posts or collection documents with a future date.
@@ -13,10 +13,10 @@ future: true
 
 # SNS settings
 RSS: false
-github_username: guilyx
-twitter_username: rangonomics
+github_username: alwaki
+#twitter_username: rangonomics
 #facebook_username:  huxpro
-linkedin_username:  erwinlejeune-lkn
+linkedin_username:  alexander-wallén-kiessling
 
 # Build settings
 # from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
@@ -66,13 +66,13 @@ netease_comment: false
 # ba_track_id: [your track id]
 
 # Google Analytics
-ga_track_id: "G-L60Z89VR35" # Format: UA-xxxxxx-xx
-ga_domain: guilyx.github.io
+ga_track_id: "G-L60Z89VR36" # Format: UA-xxxxxx-xx
+ga_domain: alwaki.github.io
 
 # Sidebar settings
 sidebar: true # whether or not using Sidebar.
-sidebar-about-description: "Erwin Lejeune <br> Swarm Team @ ATRC"
-sidebar-avatar: https://github.com/guilyx.png # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-about-description: "Alexander W. Kiessling <br> Robotics @ EPFL"
+sidebar-avatar: https://github.com/alwaki.png # use absolute URL, seeing it's used in both `/` and `/about/`
 
 # Featured Tags
 featured-tags: true # whether or not using Feature-Tags
@@ -86,7 +86,7 @@ service-worker: true
 page-mathjax: false
 
 # Friends
-friends:
-  [
-    { title: "Open PR to be featured!", href: "https://github.com/guilyx/guilyx.github.io/pulls" },
-  ]
+#friends:
+#  [
+#    { title: "Open PR to be featured!", href: "https://github.com/guilyx/guilyx.github.io/pulls" },
+#  ]
