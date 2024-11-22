@@ -18,12 +18,6 @@ multilingual: true
     {{ about_en | markdownify }}
 </div>
 
-<!-- French Version -->
-<div class="fr post-container">
-    {% capture about_fr %}{% include about/fr.md %}{% endcapture %}
-    {{ about_fr | markdownify }}
-</div>
-
 
 {% if site.disqus_username %}
 <!-- disqus 评论框 start -->
