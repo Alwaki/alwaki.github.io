@@ -1,8 +1,11 @@
 ---
 layout: page
 title: "About"
-description: "When you’re just too socially awkward for real life, a blog welcomes you with open arms."
-header-img: "img/about-bg.jpg"
+description: "“No! Please! I'll tell you whatever you want to know!" the man yelled.
+"Really?" said Vimes. "What's the orbital velocity of the moon?"
+"What?"
+"Oh, you'd like something simpler?”"
+header-img: "img/EPFL-bg.jpg"
 header-mask: 0.3
 multilingual: true
 ---
@@ -13,6 +16,12 @@ multilingual: true
 <div class="en post-container">
     {% capture about_en %}{% include about/en.md %}{% endcapture %}
     {{ about_en | markdownify }}
+</div>
+
+<!-- French Version -->
+<div class="fr post-container">
+    {% capture about_fr %}{% include about/fr.md %}{% endcapture %}
+    {{ about_fr | markdownify }}
 </div>
 
 
