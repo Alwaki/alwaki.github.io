@@ -1,19 +1,5 @@
-Hey, I am Erwin Lejeune (a.k.a. _@rangonomics_, _@wardn_). I am a Robotics Engineer by degree, but I consider myself a Software Engineer at the core and have not limited myself to Robotics and its transversal fields. I have deployed web apps for blockchain analytics, trading (don't use it) bots, investment analytics apps, web3 and many more projects.
+Hi! My name is Alexander Wallén Kiessling, and I work and study in the field of robotics. I like working on topics that (broadly speaking) involve autonomous robotics. This includes environmental monitoring, field robotics, multi-robot systems and machine learning, amongst others.
 
-In the past, I have led the development of Serena's Autonomous Navigation (ROS2, C++) stack at [Coalescent Mobile Robotics](https://cm-robotics.com/), worked at [Hiventive](https://www.hiventive.com/en/) both as a Back-End Software Engineer (Go, PostgreSQL) and as a Embedded Software Engineer (C++, C).
+I've studied my undergraduate degrees in mechanical engineering and physics at KTH in Sweden, where I also worked as a research engineer at the department of [Robotics, Perception and Learning](https://www.kth.se/is/rpl). During my time at KTH, I've worked on a multitude of robotic platforms: racing cars, submarines, drones, terrain vehicles and more. Currently I am working on robotics at EPFL in Switzerland, at the [Distributed Intelligent Systems and Algorithms Laboratory](https://www.epfl.ch/labs/disal/).
 
-I have also been part of the Real Time Systems research team at [LS2N](https://ls2n.fr) for AI Planning, in which I have developed [pymapf](https://github.com/APLA-Toolbox/pymapf) (Multi-Agents Pathfinding Toolbox) and [pyddl](https://github.com/APLA-Toolbox/pythonpddl) (PDDL Parser/Planner).
-
-I have interned at [Ingeniarius](https://ingeniarius.pt/), where I have worked on [STOP](http://stop.ingeniarius.pt/), [SAFE](http://safeforest.ingeniarius.pt/) and [SEMFIRE](http://semfire.ingeniarius.pt/).
-
-I completed my BSc. in Electronics from [Nantes Université](https://english.univ-nantes.fr/), followed by a Master's in Embedded Systems at [Bordeaux Ynov Campus](https://www.ynov.com/campus/bordeaux). I then transfered for a Control and Robotics Master's at [Ecole Centrale Nantes](https://www.ec-nantes.fr/english-version), a top 5 graduate school in the country.
-
-I now started the process of learning Blockchain Technology as well as their web integrations with web3.
-
-##### Projects
-
-- [Trackdrop][1] · A Footprint Tracker on Ethereum's Rollups · 2023
-- [Python-Nexo][2] · A Python Wrapper for Nexo Pro's API · 2022
-
-[1]: https://trackdrop.xyz/
-[2]: https://github.com/guilyx/python-nexo
+If you would like to reach out to me, you can most easily contact me on alexander.kiessling@epfl.ch.
