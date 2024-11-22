@@ -1,26 +1,60 @@
-# gh-pages-minima-starter
+[Hux Blog](https://huangxuan.me)
+================================
 
-This is a template and some instructions for running Github Pages with the [`minima` theme][minima]. This repo has what I consider the minimum pieces for a personal blog using [Jekyll][jk] and [Github Pages][gh-site]:
+> I never expect this becomes popular.
 
-* Frontpage that includes your last blog posts: `_pages/frontpage.md`
-* Archive for all your posts: `_pages/archive.md`
-* About page: `_pages/about.md`
-* Minimum 404 page: `_pages/404.md`
-* Minimum metadata in the `_config.yml`
-* Example CSS change inside `assets/main.scss`
-* Custom footer template `_includes/footer.html`
+![](http://huangxuan.me/img/blog-desktop.jpg)
 
-Check out the excellent [`minima` theme][minima] documentation for further details and customization and the [official docs][gh] for more details on how Github Pages work.
 
-For more details on how to set it up locally, create content, use Github interface, etc. feel free to visit this [website post][dev] or the source code here.
+[User Manual 👉](_doc/Manual.md)
+--------------------------------------------------
 
-Do you have questions? feel free to [open an issue](https://github.com/jsanz/gh-pages-minima-starter/issues/new/choose) or [contact me](https://jorgesanz.net/contact).
+### Getting Started
 
-Enjoy!!
+1. You will need [Ruby](https://www.ruby-lang.org/en/) and [Bundler](https://bundler.io/) to use [Jekyll](https://jekyllrb.com/). Following [Using Jekyll with Bundler](https://jekyllrb.com/tutorials/using-jekyll-with-bundler/) to fullfill the enviromental requirement.
 
-[gh-site]: https://pages.github.com/
-[jk]: https://jekyllrb.com/
-[minima]: https://github.com/jekyll/minima/tree/2.5-stable
-[gh]: https://help.github.com/en/github/working-with-github-pages
-[gh-settings]: https://help.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
-[dev]: https://jsanz.github.io/gh-pages-minima-starter/2020/04/17/local-env.html
+2. Installed dependencies in the `Gemfile`:
+
+```sh
+$ bundle install 
+```
+
+3. Serve the website (`localhost:4000` by default):
+
+```sh
+$ bundle exec jekyll serve  # alternatively, npm start
+```
+
+### Development (Build From Source)
+
+To modify the theme, you will need [Grunt](https://gruntjs.com/). There are numbers of tasks you can find in the `Gruntfile.js`, includes minifing JavaScript, compiling `.less` to `.css`, adding banners to keep the Apache 2.0 license intact, watching for changes, etc. 
+
+Yes, they were inherited and are extremely old-fashioned. There is no modularization and transpilation, etc.
+
+Critical Jekyll-related code are located in `_include/` and `_layouts/`. Most of them are [Liquid](https://github.com/Shopify/liquid/wiki) templates.
+
+This theme uses the default code syntax highlighter of jekyll, [Rouge](http://rouge.jneen.net/), which is compatible with Pygments theme so just pick any pygments theme css (e.g. from [here](http://jwarby.github.io/jekyll-pygments-themes/languages/javascript.html) and replace the content of `highlight.less`.
+
+
+### Interesting to know more? Checkout the [full user manual](_doc/Manual.md)!
+
+
+Other Resources
+---------------
+
+Ports
+- [**Hexo**](https://github.com/Kaijun/hexo-theme-huxblog) by @kaijun
+- [**React-SSR**](https://github.com/LucasIcarus/huxpro.github.io/tree/ssr) by @LucasIcarus
+
+[Starter/Boilerplate](https://github.com/huxpro/huxblog-boilerplate)
+- Out of date. Helps wanted for updating it on par with the main repo
+
+
+License
+-------
+
+Apache License 2.0.
+Copyright (c) 2015-present Huxpro
+
+Hux Blog is derived from [Clean Blog Jekyll Theme (MIT License)](https://github.com/BlackrockDigital/startbootstrap-clean-blog-jekyll/)
+Copyright (c) 2013-2016 Blackrock Digital LLC.
