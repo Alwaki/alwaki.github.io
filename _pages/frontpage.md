@@ -2,7 +2,6 @@
 permalink: /
 layout: home
 title: About
-list_title: Projects
 ---
 
 Hi! My name is Alexander Wallén Kiessling, and I work and study in the field of robotics. I like working on topics that (broadly speaking) involve autonomous robotics. This includes environmental monitoring, field robotics, multi-robot systems and machine learning, amongst others.
