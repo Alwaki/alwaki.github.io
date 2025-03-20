@@ -1,7 +1,7 @@
 ---
 layout:     keynote
 title:      "Conference paper accepted"
-subtitle:   "Non-myopic Layered Bayesian Optimization for Bathymetric IPP"
+subtitle:   "Efficient Non-Myopic Layered Bayesian Optimization For Large-Scale Bathymetric Informative Path Planning"
 #iframe:     "//huangxuan.me/pwa-qcon2016/"
 navcolor:   "invert"
 date:       2025-01-20
