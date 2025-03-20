@@ -1,0 +1,27 @@
+---
+layout:     keynote
+title:      "Conference paper accepted"
+subtitle:   "Non-myopic Layered Bayesian Optimization for Bathymetric IPP"
+#iframe:     "//huangxuan.me/pwa-qcon2016/"
+navcolor:   "invert"
+date:       2025-01-20
+author:     "Alexander W. Kiessling"
+tags:
+    - Paper
+    - Conference
+    - AUV
+    - Path Planning
+---
+
+### Conference
+
+IEEE International Conference on Robotics and Automation (ICRA), 2025 Atlanta.
+
+### Authors
+
+Alexander Wallén Kiessling, Ignacio Torroba, Chelsea Sidrane, Ivan Stenius, Jana Tumova, John Folkesson
+
+### Abstract
+
+Informative path planning (IPP) applied to bathymetric mapping allows AUVs to focus on feature-rich areas to quickly reduce uncertainty and increase mapping efficiency. Existing methods based on Bayesian optimization (BO) over Gaussian Process (GP) maps work well on small scenarios but they are short-sighted and computationally heavy when mapping larger areas, hindering deployment in real applications. To overcome this, we present a 2-layered BO IPP method that performs non-myopic, online planning in a tree search fashion over large Stochastic Variational GP maps, while respecting the AUV dynamical constraints and accounting for localization uncertainty. Our framework outperforms the standard industrial lawn-mowing pattern and a myopic baseline in a set of hardware in the loop (HIL) experiments in an embedded platform over real bathymetry areas.
+
